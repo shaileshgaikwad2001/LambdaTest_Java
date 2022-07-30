@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="LambdaTestSuite">
+
+  <test name="WIN10CHROMETEST">
+    <classes>
+      <class name="com.lambdaTests.SimpleFormDemoTest"/>
+    </classes>
+  </test>
+
+  <test name="WIN8FIREFOXTEST">
+    <classes>
+      <class name="com.lambdaTests.DragAndDropSlidersTest"/>
+    </classes>
+  </test>
+
+  <test name="MACSAFARITEST">
+    <classes>
+      <class name="com.lambdaTests.InputFormSubmitTest"/>
+    </classes>
+  </test>
+
+</suite>
